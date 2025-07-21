@@ -1,0 +1,8 @@
+function somarDoisNumeronos(num1,num2){
+    let soma = num1+num2;
+    return soma;
+}
+
+somarDoisNumeronos(10,5);
+
+//Esse arquivo apenas existe nessa branch.
