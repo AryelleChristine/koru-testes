@@ -6,4 +6,6 @@ function somarDoisNumeros(num1,num2){
 somarDoisNumeros(10,5);
 console.log(somarDoisNumeros);
 
+//primeiro exercicio de hoje
+
 //Esse arquivo apenas existe nessa branch.
