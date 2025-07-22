@@ -1,10 +1,12 @@
-function eAdulto(idade){
-    if (idade >=18) {
-        return console.log("é adulto!")
-    }
-
-    else{
-        console.log("Não é adulto");
-    }
+function addIsAdult(person) {
+  return {
+    ...person,
+    isAdult: person.idade >= 18
+  };
 }
-eAdulto(10);
+
+
+const person = { nome: "Aryelle", idade: 24 };
+const newPerson = addIsAdult(person);
+
+console.log(newPerson);
