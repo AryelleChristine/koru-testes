@@ -1,9 +1,9 @@
-function somarDoisNumeronos(num1,num2){
+function somarDoisNumeros(num1,num2){
     let soma = num1+num2;
     return soma;
 }
 
-somarDoisNumeronos(10,5);
+somarDoisNumeros(10,5);
 console.log(somarDoisNumeros);
 
 //Esse arquivo apenas existe nessa branch.
