@@ -4,5 +4,6 @@ function somarDoisNumeronos(num1,num2){
 }
 
 somarDoisNumeronos(10,5);
+console.log(somarDoisNumeros);
 
 //Esse arquivo apenas existe nessa branch.
